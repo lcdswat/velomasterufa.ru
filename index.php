@@ -24,16 +24,20 @@
 					<a href="/">Статьи</a>
 					<a href="/">Контакты</a>
 				</div>
-				<div id="promo-text">
-					<h1>Комплексное ТО велосипеда</h1>
-					<div id="promo-text-cost">
-						800 Р
+				<div class="promo-text">
+					<h1>Регулировка передач<br>и тормозов</h1>
+					<div class="promo-text-cost">
+						800&thinsp;₽
 					</div>
-					<div id="promo-text-name">
-						<b>Что будет сделано</b><br>
-						Демонтаж кассеты / трещетки, цепи, очистка, смазка, регулировка
+					<div class="promo-text-name">
+						<span>Что будет сделано</span>
+						Демонтаж кассеты, трещетки,<br>цепи, очистка, смазка,<br>регулировка
 					</div>
-					<div id="promo-text-contorls"></div>
+					<div class="promo-text-contorls">
+						<img src="/site-files/promo-text-controls.svg" id="left">
+						<img src="/site-files/promo-text-controls.svg" id="right">
+					</div>
+					<div class="clean"></div>
 				</div>
 			</div>
 		</div>
