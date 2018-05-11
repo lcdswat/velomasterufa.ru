@@ -24,16 +24,20 @@
 					<a href="/">Статьи</a>
 					<a href="/">Контакты</a>
 				</div>
-				<div id="promo-text">
-					<h1>Комплексное ТО велосипеда</h1>
-					<div id="promo-text-cost">
-						800 Р
+				<div class="promo-text">
+					<h1>Регулировка передач<br>и тормозов</h1>
+					<div class="promo-text-cost">
+						800&thinsp;₽
 					</div>
-					<div id="promo-text-name">
-						<b>Что будет сделано</b><br>
-						Демонтаж кассеты / трещетки, цепи, очистка, смазка, регулировка
+					<div class="promo-text-name">
+						<span>Что будет сделано</span>
+						Демонтаж кассеты, трещетки,<br>цепи, очистка, смазка,<br>регулировка
 					</div>
-					<div id="promo-text-contorls"></div>
+					<div class="promo-text-contorls">
+						<img src="site-files/promo-text-controls.svg" id="left">
+						<img src="site-files/promo-text-controls.svg" id="right">
+					</div>
+					<div class="clean"></div>
 				</div>
 			</div>
 		</div>
@@ -43,22 +47,22 @@
 		<div id="first-of-all">
 			<h1>В первую очередь —</h1>
 			<div>
-				<img src="/img/fish-1.jpg">
+				<img src="img/fish-1.jpg">
 				<span>Ремонт</span>
 				Полный комплекс услуг&nbsp;по&nbsp;ремонту и&nbsp;обслуживанию велосипеда
 			</div>
 			<div>
-				<img src="/img/fish-1.jpg">
+				<img src="img/fish-1.jpg">
 				<span>Тюнинг</span>
 				Замена навесного оборудования на более качественное или подходящее
 			</div>
 			<div>
-				<img src="/img/fish-1.jpg">
+				<img src="img/fish-1.jpg">
 				<span>Покраска</span>
 				Пескоструйная обработка, покрытие кислотным грунтом, нанесение краски и лака
 			</div>
 			<div>
-				<img src="/img/fish-1.jpg">
+				<img src="img/fish-1.jpg">
 				<span>Обучение</span>
 				Обучающий курс по&nbsp;обслуживанию и&nbsp;ремонта велосипеда в&nbsp;домашних условиях
 			</div>
@@ -108,19 +112,19 @@
 		<div id="articles-mainpage">
 			<h1>Статьи по ремонту —</h1>
 			<div>
-				<img src="/img/fish-2.jpg">
+				<img src="img/fish-2.jpg">
 				<a href="/">Регулировка тормозов V-brake</a>
 			</div>
 			<div>
-				<img src="/img/fish-2.jpg">
+				<img src="img/fish-2.jpg">
 				<a href="/">Регулировка тормозов V-brake</a>
 			</div>
 			<div>
-				<img src="/img/fish-2.jpg">
+				<img src="img/fish-2.jpg">
 				<a href="/">Регулировка тормозов V-brake</a>
 			</div>
 			<div>
-				<img src="/img/fish-2.jpg">
+				<img src="img/fish-2.jpg">
 				<a href="/">Регулировка тормозов V-brake</a>
 			</div>
 			<div class="clean"></div>
