@@ -136,7 +136,7 @@ h2 {
 #header-main {
 	width: 100%;
 	background-color: #1f3043;
-	background-image: url(/img/fish-0.jpg);
+	background-image: url(img/fish-0.jpg);
 	color: white;
 	background-size: cover;
 }
@@ -413,7 +413,7 @@ h2 {
 	width: 201px;
 	padding: 20px 0 20px 20px;
 	height: 20px;
-	background-image: url(/site-files/form-picker.svg);
+	background-image: url(site-files/form-picker.svg);
 	background-position: center right;
 	background-repeat: no-repeat;
 	background-size: 50px 80px;
@@ -483,7 +483,7 @@ h2 {
 	line-height: 20px;
 	font-family: 'Open Sans', sans-serif;
 	padding: 20px 0 20px 20px;
-	background-image: url(/site-files/form-picker.svg);
+	background-image: url(site-files/form-picker.svg);
 	background-position: center right;
 	background-repeat: no-repeat;
 	background-size: 50px 80px;

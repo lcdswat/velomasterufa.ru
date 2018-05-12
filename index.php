@@ -32,8 +32,13 @@
 						Демонтаж кассеты, трещетки,<br>цепи, очистка, смазка,<br>регулировка
 					</div>
 					<div class="promo-text-contorls">
+<<<<<<< HEAD
 						<img src="/site-files/promo-text-controls.svg" id="left">
 						<img src="/site-files/promo-text-controls.svg" id="right">
+=======
+						<img src="site-files/promo-text-controls.svg" id="left">
+						<img src="site-files/promo-text-controls.svg" id="right">
+>>>>>>> 066d9b53632c4be0c0e89e1d689e69a1ae6c649c
 					</div>
 					<div class="clean"></div>
 				</div>
@@ -45,22 +50,22 @@
 		<div id="first-of-all">
 			<h1>В первую очередь —</h1>
 			<div>
-				<img src="/img/fish-1.jpg">
+				<img src="img/fish-1.jpg">
 				<span>Ремонт</span>
 				Полный комплекс услуг&nbsp;по&nbsp;ремонту и&nbsp;обслуживанию велосипеда
 			</div>
 			<div>
-				<img src="/img/fish-1.jpg">
+				<img src="img/fish-1.jpg">
 				<span>Тюнинг</span>
 				Замена навесного оборудования на более качественное или подходящее
 			</div>
 			<div>
-				<img src="/img/fish-1.jpg">
+				<img src="img/fish-1.jpg">
 				<span>Покраска</span>
 				Пескоструйная обработка, покрытие кислотным грунтом, нанесение краски и лака
 			</div>
 			<div>
-				<img src="/img/fish-1.jpg">
+				<img src="img/fish-1.jpg">
 				<span>Обучение</span>
 				Обучающий курс по&nbsp;обслуживанию и&nbsp;ремонта велосипеда в&nbsp;домашних условиях
 			</div>
@@ -110,19 +115,19 @@
 		<div id="articles-mainpage">
 			<h1>Статьи по ремонту —</h1>
 			<div>
-				<img src="/img/fish-2.jpg">
+				<img src="img/fish-2.jpg">
 				<a href="/">Регулировка тормозов V-brake</a>
 			</div>
 			<div>
-				<img src="/img/fish-2.jpg">
+				<img src="img/fish-2.jpg">
 				<a href="/">Регулировка тормозов V-brake</a>
 			</div>
 			<div>
-				<img src="/img/fish-2.jpg">
+				<img src="img/fish-2.jpg">
 				<a href="/">Регулировка тормозов V-brake</a>
 			</div>
 			<div>
-				<img src="/img/fish-2.jpg">
+				<img src="img/fish-2.jpg">
 				<a href="/">Регулировка тормозов V-brake</a>
 			</div>
 			<div class="clean"></div>
