@@ -32,13 +32,8 @@
 						Демонтаж кассеты, трещетки,<br>цепи, очистка, смазка,<br>регулировка
 					</div>
 					<div class="promo-text-contorls">
-<<<<<<< HEAD
 						<img src="/site-files/promo-text-controls.svg" id="left">
 						<img src="/site-files/promo-text-controls.svg" id="right">
-=======
-						<img src="site-files/promo-text-controls.svg" id="left">
-						<img src="site-files/promo-text-controls.svg" id="right">
->>>>>>> 066d9b53632c4be0c0e89e1d689e69a1ae6c649c
 					</div>
 					<div class="clean"></div>
 				</div>
