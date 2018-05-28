@@ -1,0 +1,30 @@
+
+
+<div class="flex-container">
+	<div class="flexslider">
+		<ul class="slides">
+			<!-- Slide-1 -->
+			<li>
+				2
+			</li>
+			 <!-- Slide-2 -->
+			<li>
+				1
+			</li>
+		</ul>
+	</div>
+	<div class="custom-navigation">
+		<a href="#" class="flex-next">next</a>
+		<a href="#" class="flex-prev">prev</a>
+	</div>
+</div>
+
+<script>
+$(document).ready(function () {
+	$('.flexslider').flexslider({
+		animation: 'fade',
+		controlsContainer: '.flexslider',
+		customDirectionNav: '.custom-navigation'
+	});
+});
+</script>
