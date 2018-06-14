@@ -1,30 +1,40 @@
-
-
-<div class="flex-container">
-	<div class="flexslider">
-		<ul class="slides">
-			<!-- Slide-1 -->
-			<li>
-				2
-			</li>
-			 <!-- Slide-2 -->
-			<li>
-				1
-			</li>
-		</ul>
+<div class="slider">
+	<div>
+		<h1>Комплексное ТО</h1>
+		<div class="promo-text-cost">
+			2&thinsp;000&thinsp;₽
+		</div>
+		<div class="promo-text-name">
+			<span>Что будет сделано</span>
+			Ежегодное полное<br>обслуживание велосипеда&nbsp;—<br>разборка, мойка, смазка, дефектовка
+		</div>
 	</div>
-	<div class="custom-navigation">
-		<a href="#" class="flex-next">next</a>
-		<a href="#" class="flex-prev">prev</a>
+	<div>
+		<h1>Мини ТО</h1>
+		<div class="promo-text-cost">
+			1&thinsp;000&thinsp;₽
+		</div>
+		<div class="promo-text-name">
+			<span>Что будет сделано</span>
+			Минимально необходимая<br>подготовка велосипеда<br>к сезону
+		</div>
 	</div>
 </div>
+<span id="arrows"></span>
+<div class="promo-text-contorls"></div>
+<div class="clean"></div>
 
 <script>
-$(document).ready(function () {
-	$('.flexslider').flexslider({
-		animation: 'fade',
-		controlsContainer: '.flexslider',
-		customDirectionNav: '.custom-navigation'
+$(document).ready(function(){
+	$('.slider').slick({
+		infinite: true,
+		speed: 500,
+		fade: true,
+		cssEase: 'linear',
+		autoplay: true,
+		appendArrows: $('.promo-text-contorls'),
+		prevArrow: '<img src="/site-files/promo-text-controls.svg" id="left">',
+		nextArrow: '<img src="/site-files/promo-text-controls.svg" id="right">',
 	});
 });
 </script>

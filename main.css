@@ -136,16 +136,22 @@ h2 {
 #header-main {
 	width: 100%;
 	background-color: #1f3043;
-	background-image: url(img/fish-0.jpg);
+	background-image: url(img/1.jpg);
 	color: white;
 	background-size: cover;
 }
 
 #logo {
-	padding: 45px 0 40px 0;
+	width: 225px;
+	height: 56px;
+	margin: 40px 0 40px 0;
 	float: left;
 	font-size: 28px;
 	font-weight: 700;
+	background-image: url(/site-files/logo.svg);
+	background-size: contain;
+	background-position: left center;
+	background-repeat: no-repeat;
 }
 
 #menu-main {
@@ -201,7 +207,6 @@ h2 {
 }
 
 .promo-text-name {
-	width: 611px;
 	height: 120px;
 	float: left;
 	font-weight: 400;
@@ -217,11 +222,14 @@ h2 {
 .promo-text-contorls {
 	width: 80px;
 	float: right;
-	margin: 0 0 0 20px;
+	margin: 0 0 -120px 20px;
+	position: relative;
+	top: -120px;
 	border-left: 2px solid white;
 	height: 120px;
 	text-align: right;
 	font-size: 0px;
+	z-index: 999;
 }
 
 .promo-text-contorls img {

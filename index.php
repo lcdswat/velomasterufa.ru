@@ -6,8 +6,8 @@
 	<title>Веломастер Уфа</title>
 	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 	<script src="/site-files/jquery-3.3.1.min.js" type="text/javascript"></script>
-	<script src="/site-files/flexslider/jquery.flexslider-min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/site-files/flexslider/slider.css">
+	<script src="/site-files/slick.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="/site-files/slick.css">
 </head>
 <body>
 <div id="wrapper">
@@ -16,55 +16,27 @@
 		<!-- Шапка -->
 		<div id="header-main">
 			<div class="grid">
-				<div id="logo">
-					Веломастер
+				<a href="/"><div id="logo"></div></a>
+				<div id="short-contacts">
+					123
 				</div>
 				<div id="menu-main">
 					<a href="/" class="active">О сервисе</a>
 					<a href="/">Прайс-лист</a>
 					<a href="/">Контакты</a>
 				</div>
-
-				<div class="promo-text">
+			</div>
+			<div class="promo-text">
+				<div class="grid">
 					<?php include($_SERVER['DOCUMENT_ROOT'].'/inc/slider.html'); ?>
 				</div>
-
-				<!--
-				<div class="promo-text">
-					<div class="slider-one">
-						<h1>Комплексное ТО</h1>
-						<div class="promo-text-cost">
-							2&thinsp;000&thinsp;₽
-						</div>
-						<div class="promo-text-name">
-							<span>Что будет сделано</span>
-							Демонтаж кассеты, трещетки,<br>цепи, очистка, смазка,<br>регулировка
-						</div>
-					</div>
-					<div class="slider-two">
-						<h1>Мини ТО</h1>
-						<div class="promo-text-cost">
-							2&thinsp;000&thinsp;₽
-						</div>
-						<div class="promo-text-name">
-							<span>Что будет сделано</span>
-							Демонтаж кассеты, трещетки,<br>цепи, очистка, смазка,<br>регулировка
-						</div>
-					</div>
-					<div class="promo-text-contorls">
-						<img src="/site-files/promo-text-controls.svg" id="left">
-						<img src="/site-files/promo-text-controls.svg" id="right">
-					</div>
-					<div class="clean"></div>
-				</div>
-			-->
 			</div>
 		</div>
 		<!-- EOF Шапка -->
 
 		<!-- В первую очередь -->
 		<div id="first-of-all">
-			<h1>В первую очередь —</h1>
+			<h1>Чем мы занимаемся —</h1>
 			<div>
 				<img src="img/fish-1.jpg">
 				<span>Ремонт</span>
