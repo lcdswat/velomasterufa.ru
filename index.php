@@ -18,18 +18,18 @@
 			<div class="grid">
 				<a href="/"><div id="logo"></div></a>
 				<div id="short-contacts">
-					123
+					<a href="tel:+79373384000">+7 937 338-40-00</a><br>
+					<a href="#map">г. Уфа, ул. Менделеева, 114/2</a>
 				</div>
 				<div id="menu-main">
 					<a href="/" class="active">О сервисе</a>
 					<a href="/">Прайс-лист</a>
 					<a href="/">Контакты</a>
 				</div>
+				<div class="clean"></div>
 			</div>
 			<div class="promo-text">
-				<div class="grid">
-					<?php include($_SERVER['DOCUMENT_ROOT'].'/inc/slider.html'); ?>
-				</div>
+				<?php include($_SERVER['DOCUMENT_ROOT'].'/inc/slider.html'); ?>
 			</div>
 		</div>
 		<!-- EOF Шапка -->
